@@ -108,7 +108,7 @@ int main(void)
   MX_USB_HOST_Init();
   /* USER CODE BEGIN 2 */
 
-  _Bool AllLedONState = 1;
+  _Bool AllLedONState = 1;	//Led state = 1 while all led's on
   AllLedON();
   HAL_Delay(5000);
   AllLedOFF();
